@@ -5,9 +5,11 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
+    "commit": "cz",
+    "format": "npx prettier . --write",
+    "format:check": "npx prettier . --check",
     "lint": "npx eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "cz"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,8 @@
     "@typescript-eslint/parser": "^6.4.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "3.0.2",
     "typescript": "^5.2.2"
   },
   "config": {
