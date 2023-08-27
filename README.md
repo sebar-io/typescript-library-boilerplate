@@ -24,7 +24,7 @@ npm run build
 
 [ESLint](https://typescript-eslint.io/) lets us run linting
 
-```npm run lint```
+`npm run lint`
 
 ## Prettier
 
@@ -37,3 +37,7 @@ npm run format
 ```
 npm run format:check
 ```
+
+## Commitlint and Husky
+
+[Commitlint](https://commitlint.js.org/) and [Husky](https://github.com/typicode/husky) let us lint commit messages using a git hook

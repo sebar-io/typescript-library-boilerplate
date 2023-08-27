@@ -9,7 +9,9 @@
     "format": "npx prettier . --write",
     "format:check": "npx prettier . --check",
     "lint": "npx eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitlint": "commitlint --edit"
   },
   "repository": {
     "type": "git",
@@ -22,11 +24,14 @@
   },
   "homepage": "https://github.com/sebar-io/typescript-library-boilerplate#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
     "prettier": "3.0.2",
     "typescript": "^5.2.2"
   },
