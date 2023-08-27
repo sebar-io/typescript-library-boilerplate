@@ -38,10 +38,6 @@ npm run format
 npm run format:check
 ```
 
-## Husky
-
-[Husky](https://github.com/typicode/husky) lets us use git hooks
-
 ## Commitlint
 
 [Commitlint](https://commitlint.js.org/) let us lint commit messages
@@ -50,7 +46,10 @@ npm run format:check
 npm run commitlint
 ```
 
-husky configured to auto-lint commit messages
+## Husky
 
+[Husky](https://github.com/typicode/husky) lets us use git hooks
 
-
+- commit-msg: `npm run commitlint`
+- pre-commit: `npm run precommit`
+- pre-push: `npm run prepush`
