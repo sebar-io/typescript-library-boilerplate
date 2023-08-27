@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-  "commit": "cz",
+    "commit": "cz",
     "format": "npx prettier . --write",
     "format:check": "npx prettier . --check",
     "lint": "npx eslint .",

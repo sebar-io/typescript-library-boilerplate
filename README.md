@@ -38,6 +38,19 @@ npm run format
 npm run format:check
 ```
 
-## Commitlint and Husky
+## Husky
 
-[Commitlint](https://commitlint.js.org/) and [Husky](https://github.com/typicode/husky) let us lint commit messages using a git hook
+[Husky](https://github.com/typicode/husky) lets us use git hooks
+
+## Commitlint
+
+[Commitlint](https://commitlint.js.org/) let us lint commit messages
+
+```
+npm run commitlint
+```
+
+husky configured to auto-lint commit messages
+
+
+
