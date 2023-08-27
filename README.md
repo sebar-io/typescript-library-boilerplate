@@ -13,3 +13,11 @@ Boilerplate for typescript library with jest, commitizen, eslint, and github ci/
 ## Typescript
 
 [Typescript](https://www.typescriptlang.org/) gives us type checking
+
+`npm run build`
+
+## ESLint
+
+[ESLint](https://typescript-eslint.io/) lets us run linting
+
+`npm run lint`
