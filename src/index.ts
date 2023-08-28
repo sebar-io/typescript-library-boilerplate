@@ -1,3 +1,3 @@
-export const helloWorld = (): string => {
-  return "hello world";
+export const sum = (x: number, y: number) => {
+  return x + y;
 };
