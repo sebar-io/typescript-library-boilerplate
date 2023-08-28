@@ -8,7 +8,7 @@ Boilerplate for typescript library with jest, commitizen, eslint, and github ci/
 
 [Commitizen](https://github.com/commitizen/cz-cli) helps us have consistent commit messages in our repository
 
-```
+```bash
 npm run commit
 ```
 
@@ -16,7 +16,7 @@ npm run commit
 
 [Typescript](https://www.typescriptlang.org/) gives us type checking
 
-```
+```bash
 npm run build
 ```
 
@@ -24,25 +24,35 @@ npm run build
 
 [ESLint](https://typescript-eslint.io/) lets us run linting
 
-`npm run lint`
+```bash
+npm run lint
+```
 
 ## Prettier
 
 [Prettier](https://prettier.io/) lets us format our code
 
-```
+```bash
 npm run format
 ```
 
-```
+```bash
 npm run format:check
+```
+
+## Jest
+
+[Jest](https://jestjs.io/) lets us run automated test cases
+
+```bash
+npm run test
 ```
 
 ## Commitlint
 
 [Commitlint](https://commitlint.js.org/) let us lint commit messages
 
-```
+```bash
 npm run commitlint
 ```
 
