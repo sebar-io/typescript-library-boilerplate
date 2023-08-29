@@ -64,6 +64,10 @@ npm run commitlint
 - pre-commit: `npm run precommit`
 - pre-push: `npm run prepush`
 
+# lint-staged
+
+[lint-staged](https://github.com/okonet/lint-staged) lets us run eslint and prettier on our staged files
+
 ## GitHub Actions
 
 [GitHub Actions](https://github.com/features/actions) lets us automate workflows in our repository
