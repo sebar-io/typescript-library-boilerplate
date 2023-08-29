@@ -63,3 +63,7 @@ npm run commitlint
 - commit-msg: `npm run commitlint`
 - pre-commit: `npm run precommit`
 - pre-push: `npm run prepush`
+
+# lint-staged
+
+[lint-staged](https://github.com/okonet/lint-staged) lets us run eslint and prettier on our staged files
