@@ -68,5 +68,4 @@ npm run commitlint
 
 [GitHub Actions](https://github.com/features/actions) lets us automate workflows in our repository
 
-
 [integration.yml](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs) lets us build and test our code whenever we create a pull request or push to main
