@@ -36,6 +36,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       # This step runs `npm ci` to install any dependencies listed in your `package.json` file.
       - run: npm ci
+      # This step checks our code passes linting check
+      - run: npm run lint;
+      # This step checks our code passes formatting check
+      - run: npm run format:check;
       # This step runs the `build` script if there is one specified under the `scripts` key in your `package.json` file.
       - run: npm run build
       # This step runs the `test` script that is specified under the `scripts` key in your `package.json` file.
