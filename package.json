@@ -1,6 +1,6 @@
 {
   "name": "typescript-library-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "boilerplate for typescript library with jest, commitizen, eslint, and github ci/cd to publish on npm",
   "main": "dist/index.js",
   "scripts": {
@@ -14,11 +14,12 @@
     "test": "jest",
     "commitlint": "commitlint --edit",
     "precommit": "npx lint-staged --concurrent false",
-    "prepush": "npm run lint && npm run format:check"
+    "prepush": "npm run lint && npm run format:check",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebar-io/typescript-library-boilerplate.git"
+    "url": "https://github.com/sebar-io/typescript-library-boilerplate.git"
   },
   "author": "sebar-io",
   "license": "MIT",
@@ -40,7 +41,8 @@
     "lint-staged": "^14.0.1",
     "prettier": "3.0.2",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "semantic-release": "^21.1.1"
   },
   "config": {
     "commitizen": {
