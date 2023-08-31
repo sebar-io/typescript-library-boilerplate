@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "commit": "cz",
-    "format": "npx prettier . --write",
+    "format": "npx prettier . --write --ignore-unknown",
     "format:check": "npx prettier . --check",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint . --fix",
@@ -15,7 +15,7 @@
     "commitlint": "commitlint --edit",
     "precommit": "npx lint-staged --concurrent false",
     "prepush": "npm run lint && npm run format:check",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
